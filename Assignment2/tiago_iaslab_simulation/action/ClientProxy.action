@@ -1,0 +1,13 @@
+# goal definition
+float32 x
+float32 y
+float32 yaw_degrees
+--- 
+# result definition
+float32[] x_positions
+float32[] y_positions
+float32[] x_positions_wrf
+float32[] y_positions_wrf
+--- 
+# feedback definition
+string current_status

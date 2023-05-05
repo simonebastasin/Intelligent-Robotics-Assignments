@@ -1,0 +1,12 @@
+# goal definition
+#collision objects needed only if pickOrPlace == true tables added in the node known a priori as well dimensions of the objects
+bool pickOrPlace # if true perform "pick", if false perform "place"
+int32 id # ID of the object to be picked, needed only if pickOrPlace == true
+int32[] pose_ids
+geometry_msgs/PoseArray pose_array
+---
+# result definition
+bool success
+---
+# feedback definition
+string current_status

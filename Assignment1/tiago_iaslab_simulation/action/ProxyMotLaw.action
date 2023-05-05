@@ -1,0 +1,10 @@
+#goal definition
+float32 x
+float32 y
+float32 yaw_radians
+--- 
+#result definition
+bool all_good
+--- 
+#feedback definition
+string current_status

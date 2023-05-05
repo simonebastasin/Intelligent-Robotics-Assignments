@@ -1,0 +1,6 @@
+# request definition
+bool ready
+---
+# response definition
+int32[] pose_ids
+geometry_msgs/PoseArray pose_array
